@@ -1,52 +1,289 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>AJ Live CS 499 ePortfolio</title>
-</head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ali Jackson | CS 499 ePortfolio</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
 
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f4f7fb;
+      color: #222;
+      line-height: 1.7;
+    }
+
+    header {
+      background: linear-gradient(135deg, #1f3c88, #4a90e2);
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.8rem;
+    }
+
+    header p {
+      max-width: 850px;
+      margin: 15px auto 0;
+      font-size: 1.1rem;
+    }
+
+    nav {
+      background: #ffffff;
+      padding: 15px 20px;
+      text-align: center;
+      border-bottom: 1px solid #ddd;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    nav a {
+      margin: 0 12px;
+      text-decoration: none;
+      color: #1f3c88;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .container {
+      max-width: 1050px;
+      margin: 30px auto;
+      padding: 0 20px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 14px;
+      padding: 30px;
+      margin-bottom: 30px;
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+    }
+
+    h2, h3 {
+      color: #1f3c88;
+      margin-top: 0;
+    }
+
+    .links a {
+      display: inline-block;
+      margin: 8px 10px 8px 0;
+      padding: 10px 16px;
+      background: #1f3c88;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-size: 0.95rem;
+    }
+
+    .links a:hover {
+      background: #16306d;
+    }
+
+    .artifact-image {
+      width: 100%;
+      max-width: 800px;
+      border-radius: 10px;
+      border: 1px solid #d9d9d9;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+      margin: 20px 0;
+    }
+
+    .highlight {
+      background: #eef4ff;
+      border-left: 5px solid #4a90e2;
+      padding: 15px 18px;
+      margin: 18px 0;
+      border-radius: 8px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px 20px 50px;
+      color: #666;
+    }
+  </style>
+</head>
 <body>
 
-<h1>AJ Live – Computer Science ePortfolio</h1>
+  <header>
+    <h1>Ali Jackson</h1>
+    <p>
+      Welcome to my Computer Science Capstone ePortfolio for CS 499 at Southern New Hampshire University.
+      This portfolio highlights my growth throughout the program in software engineering and design,
+      algorithms and data structures, and databases through a code review, original and enhanced artifacts,
+      artifact narratives, and a professional self-assessment.
+    </p>
+  </header>
 
-<p>This portfolio highlights my growth throughout the Computer Science program, including software engineering, algorithms, and database development.</p>
+  <nav>
+    <a href="#self-assessment">Self-Assessment</a>
+    <a href="#code-review">Code Review</a>
+    <a href="#airgead">Software Engineering</a>
+    <a href="#slideshow">Algorithms</a>
+    <a href="#database">Databases</a>
+  </nav>
 
-<hr>
+  <div class="container">
 
-<h2>Professional Self-Assessment</h2>
-<p><a href="self-assessment.docx">Download Professional Self-Assessment</a></p>
+    <section id="self-assessment" class="card">
+      <h2>Professional Self-Assessment</h2>
+      <p>
+        This section introduces my portfolio as a whole and reflects on how the Computer Science program helped me
+        develop technical skills, problem-solving ability, and a stronger understanding of software design,
+        algorithms, databases, communication, and security. It also explains how my artifacts connect together
+        and demonstrate my overall growth throughout the program.
+      </p>
 
-<hr>
+      <div class="highlight">
+        In this capstone, I focused on showing not just what I built, but how I improved my work over time.
+        My portfolio demonstrates growth in validation and usability, data structure selection, database integration,
+        and the ability to communicate technical decisions clearly.
+      </div>
 
-<h2>Code Review</h2>
-<p><a href="https://www.youtube.com/watch?v=ccq9rhdkXZg">Watch Code Review Video</a></p>
+      <div class="links">
+        <a href="self-assessment.docx">Download Professional Self-Assessment</a>
+      </div>
+    </section>
 
-<hr>
+    <section id="code-review" class="card">
+      <h2>Informal Code Review</h2>
+      <p>
+        My code review video serves as the foundation for the enhancements in this portfolio. In the review,
+        I walked through the original versions of my artifacts, explained how the code functioned,
+        identified weaknesses and areas for improvement, and described the specific enhancements I planned to make.
+        This step was important because it showed my ability to analyze code critically and communicate technical ideas
+        in a way that would make sense to peers, instructors, or stakeholders.
+      </p>
 
-<h2>Artifacts</h2>
+      <p>
+        The review also helped demonstrate collaboration and decision-making skills because it framed the enhancement
+        process the way a real code review would in a professional environment. Instead of jumping directly into
+        modifications, I first evaluated the structure, logic, scalability, and overall quality of each project.
+      </p>
 
-<h3>Software Engineering and Design</h3>
-<p>Airgead Banking Investment Calculator (CS-210)</p>
-<ul>
-<li><a href="Airgead_Original.zip">Original Files</a></li>
-<li><a href="Airgead_Enhanced.zip">Enhanced Files</a></li>
-<li><a href="Airgead_Narrative.docx">Narrative</a></li>
-</ul>
+      <div class="links">
+        <a href="https://www.youtube.com/watch?v=ccq9rhdkXZg">Watch Code Review Video</a>
+      </div>
+    </section>
 
-<h3>Algorithms and Data Structures</h3>
-<p>SlideShow.java (CS-250)</p>
-<ul>
-<li><a href="SlideShow_Original.zip">Original Files</a></li>
-<li><a href="SlideShow_Enhanced.zip">Enhanced Files</a></li>
-<li><a href="SlideShow_Narrative.docx">Narrative</a></li>
-</ul>
+    <section id="airgead" class="card">
+      <h2>Artifact 1: Software Design and Engineering</h2>
+      <h3>Airgead Banking Investment Calculator, CS-210</h3>
 
-<h3>Databases</h3>
-<p>DAD 220 Database Enhancement</p>
-<ul>
-<li><a href="Database_Original.zip">Original Files</a></li>
-<li><a href="Database_Enhanced.zip">Enhanced Files</a></li>
-<li><a href="Database_Narrative.docx">Narrative</a></li>
-</ul>
+      <p>
+        This artifact is a C++ application that calculates compound interest over time using user-provided values
+        such as initial investment amount, monthly deposit, annual interest rate, and number of years.
+        I selected this artifact because it demonstrates object-oriented programming, modular structure,
+        and the ability to apply programming logic to a practical financial problem.
+      </p>
+
+      <p>
+        In the original version, the program worked correctly but had several limitations. It did not validate user input,
+        it only allowed one calculation per run, and the program flow could be improved. For the enhancement,
+        I added input validation, improved the overall user experience by allowing multiple scenarios to be run in one session,
+        and made the program feel more polished and more reliable.
+      </p>
+
+      <div class="highlight">
+        This artifact demonstrates my growth in software engineering by showing improved validation,
+        better usability, clearer structure, and stronger attention to maintainability and real user interaction.
+        It also supports the course outcomes related to professional communication, evaluating computing solutions,
+        and using well-founded techniques to implement better software.
+      </div>
+
+      <img src="airgead-screenshot.png" alt="Airgead program screenshot" class="artifact-image">
+
+      <div class="links">
+        <a href="Airgead_Orginal.zip">Original Files</a>
+        <a href="Airgead_Enhanced.zip">Enhanced Files</a>
+        <a href="Airgead_Narrative.docx">Artifact Narrative</a>
+      </div>
+    </section>
+
+    <section id="slideshow" class="card">
+      <h2>Artifact 2: Algorithms and Data Structures</h2>
+      <h3>SlideShow.java, CS-250</h3>
+
+      <p>
+        This artifact is a Java Swing slideshow application that presents wellness travel destinations using images
+        and text descriptions. I selected this artifact because it gave me the opportunity to improve how data was stored,
+        accessed, and managed inside the program.
+      </p>
+
+      <p>
+        In the original version, the slideshow relied on repeated <code>if</code> and <code>else if</code> statements to decide
+        which image and description to display. While this worked for a small project, it was not efficient or scalable.
+        For the enhancement, I created a <code>Slide</code> object and stored the slides in an <code>ArrayList</code>.
+        This allowed the program to manage slide data dynamically, reduced repeated logic, improved scalability,
+        and strengthened the navigation structure. I also added a random button, which made the program more interactive.
+      </p>
+
+      <div class="highlight">
+        This artifact highlights my ability to select a stronger data structure, reduce repetition,
+        and improve an algorithm so the program is easier to maintain and expand in the future.
+        It supports the course outcomes related to algorithmic principles, design trade-offs,
+        and implementing more efficient solutions.
+      </div>
+
+      <img src="slideshow-screenshot.png" alt="SlideShow program screenshot" class="artifact-image">
+
+      <div class="links">
+        <a href="SlideShow_Original.zip">Original Files</a>
+        <a href="SlideShow_Enhanced.zip">Enhanced Files</a>
+        <a href="SlideShow_Narrative.docx">Artifact Narrative</a>
+      </div>
+    </section>
+
+    <section id="database" class="card">
+      <h2>Artifact 3: Databases</h2>
+      <h3>DAD 220 Database Enhancement</h3>
+
+      <p>
+        This artifact began as a DAD 220 assignment focused on analyzing sales and returns data using database queries
+        and interpreting the results in a written format. I selected this artifact because it provided a strong foundation
+        in database thinking, but also left room to grow into something more practical and implementation-based.
+      </p>
+
+      <p>
+        In the enhanced version, I created a Python application that connects to a SQLite database,
+        creates a table, inserts data, and runs SQL queries to produce useful results. This enhancement turned a
+        written analysis into a functioning database-driven application. It demonstrates database design,
+        query construction, integration between Python and SQLite, and the ability to move from theory to implementation.
+      </p>
+
+      <div class="highlight">
+        This artifact demonstrates my progress in database development by showing how I can design a table structure,
+        query and retrieve data, and integrate database concepts into a working application.
+        It supports the course outcomes related to implementing technical solutions, applying practical tools,
+        and communicating how database enhancements improve real functionality.
+      </div>
+
+      <img src="database-screenshot.png" alt="Database terminal output screenshot" class="artifact-image">
+
+      <div class="links">
+        <a href="Database_Original.docx">Original Artifact</a>
+        <a href="Database_Enhanced.zip">Enhanced Files</a>
+        <a href="Database_Narrative.docx">Artifact Narrative</a>
+      </div>
+    </section>
+
+  </div>
+
+  <footer>
+    <p>Ali Jackson | CS 499 Computer Science Capstone ePortfolio</p>
+    <p><a href="https://github.com/AliJacks1">View My GitHub Profile</a></p>
+  </footer>
 
 </body>
 </html>
